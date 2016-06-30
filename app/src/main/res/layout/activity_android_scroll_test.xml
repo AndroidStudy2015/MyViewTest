@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a.myviewtest.activity.AndroidScrollTest">
+
+    <LinearLayout
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+
+        <com.example.a.myviewtest.View.CanvasLayer
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <com.example.a.myviewtest.View.MyButton
+            android:id="@+id/bt"
+            android:text="滚动了"
+            android:visibility="gone"
+
+            android:background="@color/colorAccent"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+    </LinearLayout>
+</RelativeLayout>

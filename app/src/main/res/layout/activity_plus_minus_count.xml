@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ok="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.a.myviewtest.activity.PlusMinusCountActivity">
+
+    <com.example.a.myviewtest.View.PlusMinusCount
+        android:layout_centerInParent="true"
+        android:id="@+id/plus_minus_Count"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        ok:minusPic="@drawable/jian"
+        ok:midText="3"
+        ok:midTextColor="@color/colorAccent"
+        ok:midTextSize="7sp"
+        ok:midTextWidth="70dp"
+        ok:picWidth="30dp"
+        ok:plusPic="@drawable/plus" />
+    <Button
+        android:id="@+id/bt"
+        android:layout_marginTop="50dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/plus_minus_Count"
+        android:text="获取当前的数量"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TopBar">
+        <attr name="titles" format="string" />
+        <attr name="titleTextSize" format="dimension" />
+        <attr name="titleTextColoe" format="color" />
+        <attr name="leftTextColor" format="color" />
+        <attr name="leftTextIsVisible" format="boolean"/>
+        <attr name="leftBackground" format="reference|color" />
+        <attr name="leftText" format="string" />
+        <attr name="rightTextColor" format="color" />
+        <attr name="rightBackground" format="reference|color" />
+        <attr name="rightText" format="string" />
+        <attr name="rightTextIsVisible" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="PlusMinusCount">
+        <attr name="minusPic" format="reference"/>
+        <attr name="plusPic" format="reference"/>
+        <attr name="picWidth" format="dimension"/>
+        <attr name="midText" format="string"/>
+        <attr name="midTextColor" format="color"/>
+        <attr name="midTextWidth" format="dimension"/>
+        <attr name="midTextSize" format="dimension"/>
+
+    </declare-styleable>
+</resources>

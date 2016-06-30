@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.example.a.myviewtest.View.TopBar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/topBar"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/colorAccent"
+    custom:leftBackground="@color/colorAccent"
+    custom:leftText="退出"
+    custom:leftTextColor="#ffffffff"
+    custom:leftTextIsVisible="true"
+    custom:rightBackground="@color/colorAccent"
+    custom:rightText="确定"
+    custom:rightTextColor="#ffffffff"
+    custom:titleTextColoe="#ffffffff"
+    custom:titleTextSize="7sp"
+    custom:titles="自定义组合布局" />
+
+
+
+

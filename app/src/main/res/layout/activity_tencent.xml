@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.a.myviewtest.activity.TencentActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorAccent"
+        android:gravity="center">
+
+        <com.example.a.myviewtest.View.Tencent
+            android:id="@+id/tencent"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:visibility="gone"
+            android:padding="30dp" />
+
+        <com.example.a.myviewtest.View.TencentRotation
+            android:id="@+id/tencentRotation"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:padding="30dp" />
+
+        <com.example.a.myviewtest.View.TencentTransferText
+            android:id="@+id/tencentTransferText"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:padding="30dp" />
+
+    </FrameLayout>
+
+
+</LinearLayout>

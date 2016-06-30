@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:paddingTop="6dp"
+    android:paddingBottom="6dp">
+
+
+
+    <ImageView
+        android:id="@+id/load_more"
+        android:layout_centerInParent="true"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/loadmore"/>
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="家在更多。。。"
+        android:visibility="gone"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/background_dark" />
+
+
+</RelativeLayout>

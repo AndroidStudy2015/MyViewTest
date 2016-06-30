@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.a.myviewtest">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.TopBarActivity" />
+        <activity android:name=".activity.ShanShuoTextViewActivity" />
+        <activity android:name=".activity.ProgressCircleActivity" />
+        <activity android:name=".activity.PlusMinusCountActivity" />
+        <activity android:name=".activity.YiBiaoPanActivity" />
+        <activity android:name=".activity.MyScrollViewActivity" />
+        <activity android:name=".View.DispatchTouchEventActivity" />
+        <activity android:name=".activity.ScrollViewActivity" />
+        <activity
+            android:name=".activity.DifferentTextViewGroupActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".activity.TencentActivity" />
+        <activity android:name=".activity.AndroidScrollTest" />
+        <activity android:name=".activity.RecycleViewActivity" />
+        <activity android:name=".activity.RecycleViewSlidActivity" />
+        <activity android:name=".activity.LunBoTuActivity" />
+        <activity android:name=".activity.PaletteActivity" />
+        <activity
+            android:name=".activity.PaletteActivity1"
+            android:label="@string/title_activity_palette1"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

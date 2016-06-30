@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ok="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".activity.MainActivity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/topBar"
+        layout="@layout/top_bar" />
+
+    <com.example.a.myviewtest.View.ShanShuoTextView
+        android:id="@+id/tt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/topBar"
+        android:text="人国人"
+        android:textSize="100sp"
+        android:visibility="gone" />
+
+    <com.example.a.myviewtest.View.PlusMinusCount
+        android:id="@+id/plus_minus_Count"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/tt"
+        android:visibility="gone"
+        ok:minusPic="@drawable/plus"
+        ok:midText="100"
+        ok:midTextColor="@color/colorAccent"
+        ok:midTextSize="5sp"
+        ok:midTextWidth="50dp"
+        ok:picWidth="25dp"
+        ok:plusPic="@drawable/jian">
+
+    </com.example.a.myviewtest.View.PlusMinusCount>
+
+    <com.example.a.myviewtest.View.YiBiaoPan
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/plus_minus_Count"
+        android:background="@color/colorAccent"
+        android:visibility="gone" />
+
+    <com.example.a.myviewtest.View.ProgressCircle
+        android:id="@+id/progressCircle"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content" />
+    <com.example.a.myviewtest.View.TongJiTu
+        android:id="@+id/tongJiTu"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+    <ListView
+        android:id="@+id/lv"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tongJiTu"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"/>
+    <Button
+        android:layout_below="@+id/lv"
+        android:id="@+id/bt_commit"
+        android:text="提交"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
+
+</RelativeLayout>

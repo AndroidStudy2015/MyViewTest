@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.a.myviewtest.View.DifferentTextViewGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:paddingLeft="10dp"
+    android:background="@color/colorAccent"
+    tools:context=".activity.DifferentTextViewGroupActivity">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="中华人民共和国" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="美利坚合众国" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="英吉利" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="法兰克" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="德国" />
+
+
+</com.example.a.myviewtest.View.DifferentTextViewGroup>
+
